@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.box {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 15px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: black;
+}
+
+.row:first-child .box {
+    flex: 1;
+}
+
+.row:first-child .box:nth-child(2) {
+    flex: 0.5;
+}
+
+.row:last-child .box {
+    flex: 1;
+    margin-top: 10px;
+}
+
