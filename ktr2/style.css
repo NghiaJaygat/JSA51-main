@@ -1,0 +1,12 @@
+body {
+    background: linear-gradient(to right, #dff9fb, #f9f9f9);
+    font-family: Arial, sans-serif;
+  }
+  
+  #weatherResult {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffffdd;
+  }
+  
